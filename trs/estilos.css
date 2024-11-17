@@ -1,3 +1,37 @@
+.cuerpo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255); 
+    position: relative; top: 25%; 
+    border: 6px solid blue; 
+    padding: 0%; box-shadow: 8px 8px 5px #444; 
+    border-radius: 15px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.flechas {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40%;
+}
+
+.boton {
+    background: none; 
+    border: none; 
+    padding: 0%; 
+    margin-left: 42%; 
+    margin-right: 42%; 
+    margin-bottom: 3%; 
+    margin-top: 3%;
+}
+
 .carta {
     width: 100%; 
     height: 7%;
@@ -8,4 +42,12 @@
     content:url(1f48c.gif);
     width: 100%; 
     height: 10%;
+}
+
+@media (min-width: 1000px) {
+    .cuerpo {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
 }
