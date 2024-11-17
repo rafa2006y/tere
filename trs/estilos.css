@@ -44,7 +44,7 @@
     height: 10%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
     .cuerpo {
         margin-left: 25%;
         margin-right: 25%;
