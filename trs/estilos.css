@@ -1,3 +1,11 @@
+@font-face {
+
+    font-family: Edu Australia;
+    
+    src: url("./EduAUVICWANTPre-Bold.ttf");
+    
+}
+
 .cuerpo {
     margin-left: 10px;
     margin-right: 10px;
@@ -14,6 +22,7 @@
 
 .h1 {
     text-align: center;
+    font-family: Edu Australia;
 }
 
 .flechas {
