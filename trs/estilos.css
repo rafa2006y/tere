@@ -6,7 +6,7 @@
 .contenedor {
     background-color: rgb(255, 255, 255); 
     position: relative; 
-    top: 100px; 
+    top: 40px; 
     border: 6px solid blue; 
     padding: 0%; box-shadow: 8px 8px 5px #444; 
     border-radius: 15px;
