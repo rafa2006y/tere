@@ -14,11 +14,13 @@
 
     <link rel="stylesheet" href="./estilos.css">
 
+    <!-- javascript -->
+
 </head>
 
 <body class="cuerpo">
-
-    <img src="https://pa1.aminoapps.com/6658/858b913d57627fd9d0f83f4d1339134993724432_hq.gif" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <!-- efwd.gif rty.gif hjk,gif -->
+    <img src="rty.gif" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 
     <div class="contenedor">
 
@@ -26,13 +28,31 @@
 
         <img class="flechas" src="FLECHAS 3.gif" alt="ojala le metan a ese proveedor de internet o a quien quito la foto un palo por el cul*">
 
-        <button class="boton" href="">
+        <button class="boton" onclick="redirect0()">
             
             <img class="carta" src="Screenshot_231.png" alt="leer carta">
         
         </button>
 
     </div>
+  
+    <script>
+      
+        function redirect0() {
 
+        let identificador;
 
+        function temporizador() {
+            identificador = setTimeout (redirect1, 2000);
+        }
+
+        function redirect1() {
+            const direct = location.href = './pcarta.html';
+        }
+          
+        return temporizador();
+          
+}
+    </script>
+  
 </body>
