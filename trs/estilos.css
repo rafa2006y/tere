@@ -6,6 +6,30 @@
     
 }
 
+@font-face {
+    font-family: Edu Australia1;
+
+    src: url("./EduAUVICWANTPre-Medium.ttf");
+}
+
+@font-face {
+    font-family: Edu Australia2;
+
+    src: url("./EduAUVICWANTPre-Regular.ttf");
+}
+
+@font-face {
+    font-family: Edu Australia3;
+
+    src: url("./EduAUVICWANTPre-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Edu Australia4;
+
+    src: url("./EduAUVICWANTPre-VariableFont_wght.ttf");
+}
+
 .cuerpo {
     margin-left: 10px;
     margin-right: 10px;
@@ -22,7 +46,7 @@
 
 .h1 {
     text-align: center;
-    font-family: Edu Australia;
+    font-family: Edu Australia2;
 }
 
 .flechas {
