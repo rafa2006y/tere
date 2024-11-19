@@ -47,6 +47,7 @@
 .h1 {
     text-align: center;
     font-family: Edu Australia3;
+    font-size: small;
 }
 
 .flechas {
@@ -86,5 +87,10 @@
     .contenedor {
          top: 25%;
     
+}
+    .h1 {
+    text-align: center;
+    font-family: Edu Australia3;
+    font-size: xx-large;
 }
 }
