@@ -51,7 +51,7 @@
 .contenedor1 { 
     position: relative; 
     top: 25%;
-    padding: 10px;
+    margin: 10px;
  background-image: url('https://www.elinvernaderocreativo.com/wp-content/uploads/2023/10/Carta-Papa-Noel1.jpg');
  }
 
@@ -64,8 +64,7 @@
 .h11 {
  text-align: center;
     font-family: Edu Australia3;
-    font-size: large; 
- margin: 10px;
+    font-size: large;
 }
 
 .flechas {
