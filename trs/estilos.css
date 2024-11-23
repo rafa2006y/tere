@@ -61,6 +61,12 @@
     font-size: large;
 }
 
+.h11 {
+ text-align: center;
+    font-family: Edu Australia3;
+    font-size: large; 
+}
+
 .flechas {
     display: block; 
     margin-left: auto; 
