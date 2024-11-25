@@ -50,9 +50,15 @@
 
 .contenedor1 { 
     position: relative; 
-    top: 25%;
- background-image: url('https://www.elinvernaderocreativo.com/wp-content/uploads/2023/10/Carta-Papa-Noel1.jpg');
+    top: 5%;
+    background-color: rgb(255, 255, 255); 
+    border: 29px solid transparent;
+    -moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round;
+    -webkit-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round;
+    -o-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round;
+    border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CGAyIuH7UED1c3EyrfcsQ0W4pYWT_eCjOPa28tikB-kBkAjKcA) 29 round; 
  }
+
 
 .h1 {
     text-align: center;
