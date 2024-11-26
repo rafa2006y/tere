@@ -38,20 +38,21 @@
         
         function redirect0() {
         
-        let boton = document.querySelector(".boton");
+        let Anicarta = document.querySelector(".carta");
 
         function animacion() {
-            boton.style.content = url('1f48c.gif');
-            boton.style.width = "100%"; 
-            boton.style.height = "10%";
+            Anicarta.style.content = "url(1f48c.gif)";
+            Anicarta.style.width = "100%"; 
+            Anicarta.style.height = "10%";
         }
-
-        return animacion();
 
         let identificador;
 
         function temporizador() {
+
             identificador = setTimeout (redirect1, 2000);
+
+            return animacion();
         }
 
         function redirect1() {
@@ -59,6 +60,5 @@
         }
         return temporizador();
 }
-    </script>
   
 </body>
