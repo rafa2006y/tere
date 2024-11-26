@@ -35,8 +35,18 @@
     </div>
   
     <script>
-      
+        
         function redirect0() {
+        
+        let boton = document.querySelector(".boton");
+
+        function animacion() {
+            boton.style.content = url('1f48c.gif');
+            boton.style.width = "100%"; 
+            boton.style.height = "10%";
+        }
+
+        return animacion();
 
         let identificador;
 
@@ -47,9 +57,7 @@
         function redirect1() {
             const direct = location.href = './pcarta.html';
         }
-          
         return temporizador();
-          
 }
     </script>
   
